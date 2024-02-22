@@ -1,0 +1,103 @@
+nav{
+    height: 5rem;
+}
+
+
+.precise_location_hidebox{
+  box-shadow: black;
+   background-color: #ffffff;
+   border-radius: 1rem;
+   padding: 1rem;
+   text-align: center;
+   margin: -3.9rem 1rem 0 15rem ;
+   width: 380px;
+   position: absolute;
+   z-index: 1;  
+}
+
+.input{
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    border: none;
+    
+}
+input:focus{
+    outline: none;
+    
+}
+.setup_location{
+    position: relative;
+  
+}
+.GPS{
+    font-size: 1.5rem;
+    color: rgb(222, 88, 40);
+    text-decoration: none;
+    margin-left: -6rem;
+}
+.none{
+    display: none;
+}
+
+
+.search{
+    background-color: rgba(0, 0, 0, 0.17);
+    width: 500px;
+    padding: .6rem .8rem;
+    border-radius: 15px;
+    margin-right: 14rem; 
+    border: none; 
+    font-size: 1.4rem; 
+}
+.icon{
+    margin-right: 9rem; 
+    position: absolute;
+    right: 12rem;
+    font-size: 1rem;
+
+    
+}
+.usericon{
+    position: absolute;
+    right: 14rem;
+    font-size: 2rem;
+
+}
+.arrowicon{ 
+    font-size: 1.3rem;
+}
+.search_hide_box{
+    
+    background-color: #ffffff;
+    width: 500px;
+    padding: .6rem ;
+    border-radius: 15px;
+    margin-right: 10rem; 
+    font-size: 1.4rem;
+    position: absolute;
+    right: 160px;
+    z-index: 1; 
+    display: flex; 
+     gap: 1rem;
+     margin-top: -4.16rem;
+
+}
+.insideSearch{
+   
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+ 
+
+}
+.input:hover{
+    outline: none;
+
+}
+.searchnone{
+    display: none;
+}
+
