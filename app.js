@@ -22,3 +22,35 @@ arrow_icon.addEventListener('click',()=>{
 
 })
 
+// scanicon hide and hover
+
+let secondnavimg = document.querySelector('.secondnavimg');
+let scanicon = document.querySelector('.scanicon')
+
+
+secondnavimg.addEventListener('mouseover',()=>{
+    scanicon.classList.remove('scanNone')
+})
+secondnavimg.addEventListener('mouseout',()=>{
+    scanicon.classList.add('scanNone')
+
+})
+//near scanicon mouseover then it show two more icons 
+let scanicona = document.querySelector('.imgicon')
+let scaniconb = document.querySelector('.doticon')
+
+scanicon.addEventListener('mouseover',()=>{
+    scanicona.classList.remove('scanNone')
+})
+scanicon.addEventListener('mouseout',()=>{
+    scanicona.classList.add('scanNone')
+
+})
+scanicon.addEventListener('mouseover',()=>{
+    scaniconb.classList.remove('scanNone')
+})
+scanicon.addEventListener('mouseout',()=>{
+    scaniconb.classList.add('scanNone')
+
+})
+

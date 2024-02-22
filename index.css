@@ -1,5 +1,5 @@
 body{
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
     margin: 0;
     padding: 0;
@@ -8,6 +8,10 @@ body{
 
 nav{
     height: 5rem;
+    align-items: center;
+  
+    
+
 }
 
 
@@ -21,6 +25,9 @@ nav{
    width: 380px;
    position: absolute;
    z-index: 1;  
+}
+.setup{
+    margin-top: 9px;
 }
 
 .input{
@@ -64,6 +71,7 @@ input:focus{
     position: absolute;
     right: 12rem;
     font-size: 1rem;
+    margin-top: 13px;
 
     
 }
@@ -137,5 +145,36 @@ h2{
 
 }
 .secondnavimg{
-    margin-right: 10rem;
+    margin-right: 6rem;
 }
+.imgFlex{
+    display: flex;
+    gap: 3px;
+}
+.scanicon{
+    width: 10px;
+    height: 10px;
+    color: blue;
+    font-size: 1.5rem;
+    margin-right: 55rem;
+    position: absolute;
+    right: -590px;
+    top: 6rem;
+    
+    border-radius: 50%; 
+      
+}
+
+.scanNone{
+    display: none;
+}
+.imgicon{
+    margin-top: 42px;
+    transition: 0.4s;
+}
+.doticon{
+    margin-top: 84px;
+    transition: 0.4s;
+}
+
+
