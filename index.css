@@ -217,7 +217,8 @@ h2{
 
 }
 .carouselExampleRide{
-    z-index: -1;
+    position: absolute;
+    z-index: 0;
 }
 .fleximg{
     width: 350px;
