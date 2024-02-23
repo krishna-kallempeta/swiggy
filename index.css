@@ -228,11 +228,13 @@ h2{
 }
 .cardOne{
     width: 350px;
+  
 }
 .topHYD{
     width: 100%;
     border: none;
     position: relative;
+    border-radius: 22px;
 
 }
 .cardOneDiscount{
@@ -269,5 +271,60 @@ h2{
     margin-bottom: -30px;
    
 }
+.cad{
+
+}
+.cardOne:hover{
+    width: 330px;
+}
+
+.container{
+    display: flex;
+    overflow-x: auto;
+
+}
+.container::-webkit-scrollbar{
+    width: 0;
+}
 
 
+
+
+
+.main{
+    max-height: 200px;
+    display: flex;
+    gap: 100px;
+    overflow-x:scroll;
+    margin-top: 300px;
+
+}
+.main::-webkit-scrollbar{
+    width: 0;
+}
+.cd{
+    width: 150px;
+}
+img{
+    width: 200px;
+}
+
+.secondMainNav{
+    display: flex;
+    gap:29px;
+    align-items: center;
+
+    
+}
+.navItems{
+    width: 80px;
+    display: flex;
+    gap: 3px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    /* align-items: center; */
+    font-size: large;
+  
+   
+
+}
