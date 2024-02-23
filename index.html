@@ -6,12 +6,12 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/boot<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">strap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-  <nav class="navbar bg-body-tertiary ">
+  <nav class="navbar fixed-top shadow-lg bg-body-tertiary ">
     <div class="container d-flex">
       <div class="d-flex gap-3">
         <a class="navbar-brand" href="https://www.swiggy.com/">
@@ -53,7 +53,7 @@
  
        
       <!-- second nav -->
-  <div class="row secondnavflex">
+  <div class="row secondnavflex ">
     <div class="col-6 contentsecNac">
         <h2>Order Food</h2>
         <h2>Online in</h2>
@@ -66,12 +66,119 @@
         <i class="bi bi-images imgicon scanicon shadow-lg scanNone"></i>
       
         <i class="bi bi-three-dots doticon scanicon shadow-lg scanNone"></i>
-      
-
+        
       </div>
     </div>
+  </div> 
+  
+  <!-- what in your mind box -->
+  <h3  class="container mt-4">What's on your mind?</h3>
+
+
+  <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-inner container mt-4" >
+      <div class="carousel-item carousel-item active ">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        
+        
+      </div>
+      <div class="carousel-item ">
+
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+      <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="..."><img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        
+        
+      </div>
+      <div class="carousel-item " >
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+       <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        <img class="biryani-pic" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+        
+        
+      </div>
+    </div>
+    <div class="arrowmain" id="main">
+      <button class="carousel-control-prev bg-dark arrowbtn" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next bg-dark arrowbtnTWO" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
    
-  </div>  
+  </div>
+
+
+  <hr class="container mt-5">
+
+  <h2 class="container fs-4 mt-5">Top restaurant chains in Hyderabad</h2>
+
+
+  
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="fleximg" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img class="fleximg" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img class="fleximg" src="swiggy-Biryani_2.avif" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 <script src="app.js"></script> 
 </body>
 </htm

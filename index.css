@@ -1,14 +1,22 @@
 body{
-    width: 99vw;
+    width: 99.8vw;
     height: 100vh;
     margin: 0;
     padding: 0;
+
 }
 
 
-nav{
+.navbar{
     height: 5rem;
-    align-items: center;
+    width: 100%;
+    
+   
+    position: sticky;
+    top: 0;
+    z-index: 0;
+
+   
   
     
 
@@ -23,7 +31,7 @@ nav{
    text-align: center;
    margin: -3.9rem 1rem 0 15rem ;
    width: 380px;
-   position: absolute;
+   position: fixed;
    z-index: 1;  
 }
 .setup{
@@ -87,13 +95,13 @@ input:focus{
 .search_hide_box{
     
     background-color: #ffffff;
-    width: 500px;
+    width: 520px;
     padding: .6rem ;
     border-radius: 15px;
     margin-right: 9rem; 
     font-size: 1.4rem;
-    position: absolute;
-    right: 160px;
+    position: fixed;
+    right: 180px;
     z-index: 1; 
     display: flex; 
      gap: 1rem;
@@ -119,11 +127,14 @@ input:focus{
 
 /* second nav */
 .secondnavflex{
+    width: 100%;
+    margin-top: 2rem;
     border-radius: 2rem;
     font-weight: 800;
     display: flex;
     gap: 5rem;
     background:linear-gradient(to top,rgb(178, 158, 237),#ffffff);
+    
     
   
 }
@@ -177,4 +188,39 @@ h2{
     transition: 0.4s;
 }
 
+/* whit is in your mind */
+
+.biryani-pic{
+    width: 9rem;
+    background-color: #ffffff;
+}
+.rowscroller{
+    flex-direction: row;
+    
+}
+
+.arrowbtn{
+    margin-top: -2rem;
+    margin-left: 75rem;
+    width: 25px;
+    font-size: 55rem;
+    height: 25px;
+
+}
+
+.arrowbtnTWO{
+    margin-top: -2rem;
+    margin-right: 13.6rem;
+    width: 25px;
+    font-size: 55rem;
+    height: 25px;
+
+}
+.carouselExampleRide{
+    z-index: -1;
+}
+.fleximg{
+    width: 350px;
+    border-radius: 20px;
+}
 
