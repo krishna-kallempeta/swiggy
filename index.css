@@ -14,7 +14,7 @@ body{
    
     position: sticky;
     top: 0;
-    z-index: 0;
+    z-index: 1;
 
    
   
@@ -205,6 +205,8 @@ h2{
     width: 25px;
     font-size: 55rem;
     height: 25px;
+    position: absolute;
+    z-index: 0;
 
 }
 
@@ -214,14 +216,58 @@ h2{
     width: 25px;
     font-size: 55rem;
     height: 25px;
-
-}
-.carouselExampleRide{
     position: absolute;
     z-index: 0;
+
 }
-.fleximg{
+.checking{
+
+    position: sticky;
+   
+    z-index: 0;
+}
+.cardOne{
     width: 350px;
-    border-radius: 20px;
 }
+.topHYD{
+    width: 100%;
+    border: none;
+    position: relative;
+
+}
+.cardOneDiscount{
+    position: absolute;
+    top: 20px;
+  color: #ffffff;
+  font-weight: 900;
+}
+
+.hydcardarrow{
+    margin-top: -2rem;
+    margin-left: 75rem;
+    width: 25px;
+    font-size: 55rem;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+
+}
+.hydcardarrowTwo{
+    margin-top: -2rem;
+    margin-right: 14rem;
+    width: 25px;
+    font-size: 55rem;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+    
+}
+.currentstater{
+    background-color: rgba(204, 200, 200, 0.719);
+    margin-bottom: -30px;
+   
+}
+
 
